@@ -1,0 +1,104 @@
+
+{
+  "equipes": [
+    {
+      "id": "1",
+      "nome": "eduardo",
+      "ies": "uniritter",
+      "campus": "fapa"
+    },
+    {
+      "id": "2",
+      "nome": "gustavo",
+      "ies": "uniritter",
+      "campus": "fapa"
+    },
+    {
+      "id": "3",
+      "nome": "gabriel",
+      "ies": "uniritter",
+      "campus": "fapa"
+    },
+    {
+      "id": "4",
+      "nome": "fabricio",
+      "ies": "uniritter",
+      "campus": "fapa"
+    }
+  ],
+  "integrantes": [
+    {
+      "id": "1",
+      "id_equipe": 1,
+      "nome": "eduardo",
+      "ra": 123456
+    },
+    {
+      "id": "dpKkTLLewSU",
+      "id_equipe": 1,
+      "nome": "joao",
+      "ra": 11514545
+    },
+    {
+      "id": "0yhQLCH2jb0",
+      "id_equipe": 2,
+      "nome": "gustavo",
+      "ra": 1123213235
+    },
+    {
+      "id": "hw-CPoqREtw",
+      "id_equipe": 3,
+      "nome": "gabriel",
+      "ra": 25484545
+    },
+    {
+      "id": "_MNXZ3lZq4A",
+      "id_equipe": 3,
+      "nome": "andrei",
+      "ra": 77778484
+    },
+    {
+      "id": "ZrKwfItMbxI",
+      "id_equipe": 4,
+      "nome": "fabricio",
+      "ra": 55514548
+    },
+    {
+      "id": "EvqmVYlz3eE",
+      "id_equipe": 4,
+      "nome": "jean",
+      "ra": 55514548
+    }
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "email": "admin@evento.com",
+      "admin": 1
+    }
+  ],
+  "Largadas": [
+    {
+      "id": 1,
+      "equipe": 1,
+      "distancia": 0,
+      "rodada": 1,
+      "dnf": 0,
+      "no_show": 0
+    }
+  ],
+  "rodada": [
+    {
+      "id": 1,
+      "numero": 1,
+      "status": "pendente",
+      "horario_corte": 0
+    }
+  ],
+  "evento": [
+    {
+      "rodada_atual": 1
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
